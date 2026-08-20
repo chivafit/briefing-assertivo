@@ -8,15 +8,14 @@
   ============================================================
   O QUE AINDA FALTA PREENCHER
   ============================================================
-  1. NÚMEROS DO PRODUTO -> procure por  00
-     (quantas perguntas / quantos blocos / quantos modelos)
-     Aparece no hero, na nota do hero, nos 3 stats e na oferta.
-  2. CAPA              -> assets/capa-briefing.jpg
-  3. BLOCOS DO ROTEIRO -> a lista de 7 itens e uma sugestao.
-     Ajuste para os blocos reais do seu material.
-  4. WIDGET WHATSAPP   -> productId no final do arquivo
+  1. WIDGET WHATSAPP   -> productId no final do arquivo
+     (troque COLE_O_PRODUCT_ID_CODIFICADO pelo ID da Hotmart)
 
   JA RESOLVIDO:
+  - Numeros do produto: 700+ itens, 13 blocos, 12 ambientes, 2 etapas
+    (extraidos do briefing real; hero, nota, 3 stats, lista e oferta)
+  - Capa: assets/capa-briefing.jpg
+  - Blocos do roteiro: lista com os 13 blocos reais (perfil + 12 ambientes)
   - Checkout: https://pay.hotmart.com/I85283969U (oferta "Lancamento")
   - Preco: R$ 89,90 a vista / 10x de R$ 8,99
   - Pixel: value 89.90 em AddToCart e InitiateCheckout
@@ -67,7 +66,7 @@ fbq('track', 'ViewContent');
 <section class="hero" id="inicio">
   <div class="hero-grid" aria-hidden="true"></div>
   <div class="hero-copy reveal">
-    <p class="eyebrow"><span>ROTEIRO DE BRIEFING</span> · 00 PERGUNTAS · ACESSO DIGITAL</p>
+    <p class="eyebrow"><span>ROTEIRO DE BRIEFING</span> · +700 ITENS · ACESSO DIGITAL</p>
     <h1>Comece o projeto sabendo <em>o que perguntar.</em></h1>
     <p class="credibility-seal" aria-label="Credenciais da CAD Arquitetura">10 anos de mercado <i>·</i> 146 projetos executados <i>·</i> Arquitetura <i>·</i> Engenharia <i>·</i> Design</p>
     <p class="lead">Um roteiro de perguntas estratégicas para conduzir a reunião de briefing, alinhar expectativas e reduzir alterações no meio do projeto.</p>
@@ -75,7 +74,7 @@ fbq('track', 'ViewContent');
       <a class="button button-primary checkout-link" href="https://pay.hotmart.com/I85283969U">Quero o Briefing Assertivo <span>→</span></a>
       <a class="text-link" href="#conteudo">Ver o que está incluído ↓</a>
     </div>
-    <p class="product-note">00 blocos temáticos <i>·</i> Pronto para usar na próxima reunião</p>
+    <p class="product-note">13 blocos temáticos <i>·</i> Pronto para usar na próxima reunião</p>
   </div>
   <div class="hero-visual reveal delay-1">
     <div class="book-wrap">
@@ -151,9 +150,9 @@ fbq('track', 'ViewContent');
     <h2>Estrutura para conduzir.<br>Clareza para projetar.</h2>
   </div>
   <div class="chapters stats">
-    <article class="chapter reveal"><span>ROTEIRO COMPLETO</span><h3>00</h3><p>perguntas estratégicas para a reunião de briefing.</p></article>
-    <article class="chapter reveal delay-1"><span>ORGANIZAÇÃO</span><h3>00</h3><p>blocos temáticos, do perfil do cliente ao orçamento.</p></article>
-    <article class="chapter reveal delay-2"><span>USO PROFISSIONAL</span><h3>00</h3><p>modelos prontos para registrar e validar o briefing.</p></article>
+    <article class="chapter reveal"><span>ROTEIRO COMPLETO</span><h3>700+</h3><p>itens de decisão para conduzir a reunião de briefing.</p></article>
+    <article class="chapter reveal delay-1"><span>ORGANIZAÇÃO</span><h3>13</h3><p>blocos temáticos, do perfil do cliente aos 12 ambientes.</p></article>
+    <article class="chapter reveal delay-2"><span>MÉTODO</span><h3>2</h3><p>etapas: conhecer o cliente e detalhar cada ambiente.</p></article>
   </div>
 </section>
 
@@ -166,18 +165,23 @@ fbq('track', 'ViewContent');
   <div class="tools-title reveal">
     <div class="section-number">05</div>
     <p class="eyebrow">NÃO É SÓ PARA LER</p>
-    <h2>Sete blocos para conduzir a conversa.</h2>
-    <p>Cada bloco reúne as perguntas que sustentam uma decisão de projeto — na ordem em que fazem sentido na reunião.</p>
+    <h2>Do perfil do cliente aos 12 ambientes.</h2>
+    <p>Cada bloco reúne as perguntas e decisões que sustentam aquele ambiente — na ordem em que fazem sentido na reunião.</p>
   </div>
-  <!-- AJUSTE esta lista para os blocos reais do seu material -->
   <ol class="tool-list reveal delay-1">
-    <li><span>01</span>Perfil e rotina do cliente</li>
-    <li><span>02</span>Programa de necessidades</li>
-    <li><span>03</span>Estilo, referências e repertório</li>
-    <li><span>04</span>Prioridades e inegociáveis</li>
-    <li><span>05</span>Orçamento e prazos</li>
-    <li><span>06</span>Restrições técnicas e do imóvel</li>
-    <li><span>07</span>Validação e registro do briefing</li>
+    <li><span>01</span>Conhecendo o cliente — perfil, rotina, estilo e prioridades</li>
+    <li><span>02</span>Ambiente Geral — pisos, rodapés, automação e climatização</li>
+    <li><span>03</span>Cozinha — bancadas, armários, eletros e torneiras</li>
+    <li><span>04</span>Sala de TV — home theater, conforto e usos</li>
+    <li><span>05</span>Lavabos — cubas, metais, espelhos e vasos</li>
+    <li><span>06</span>Banheiros — cubas, chuveiros, metais e nichos</li>
+    <li><span>07</span>Espaço Gourmet — churrasqueira, adega, bar e mesa</li>
+    <li><span>08</span>Sala de Jantar — mesa, cadeiras, louçaria e adega</li>
+    <li><span>09</span>Área Externa — piscina, deck, paisagismo e lounge</li>
+    <li><span>10</span>Área de Serviço — lavanderia, tanque, varal e pets</li>
+    <li><span>11</span>Home Office — mobiliário, armários e usos</li>
+    <li><span>12</span>Suíte Master — cama, iluminação e closet</li>
+    <li><span>13</span>Suíte Filhos — camas, tema, brincar e armários</li>
   </ol>
 </section>
 
@@ -232,8 +236,8 @@ fbq('track', 'ViewContent');
     <h2>Um sistema de apoio para o início do projeto.</h2>
     <p>O conjunto de materiais para se preparar, conduzir e registrar melhor cada reunião de briefing.</p>
     <ul>
-      <li>Roteiro Briefing Arquitetônico Assertivo — 00 perguntas estratégicas</li>
-      <li>Blocos temáticos do perfil do cliente ao orçamento</li>
+      <li>Roteiro Briefing Arquitetônico Assertivo — 700+ itens em 12 ambientes</li>
+      <li>13 blocos temáticos, do perfil do cliente ao detalhamento de cada ambiente</li>
       <li>Modelo para registro e validação do briefing</li>
       <li>Material digital, pronto para usar no próximo atendimento</li>
     </ul>
