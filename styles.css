@@ -12,9 +12,9 @@
 @media(max-width:520px){.credibility-seal{font-size:8px;padding:10px 12px}.credibility-seal i{padding:0 2px}.guarantee-block{grid-template-columns:34px 1fr}.guarantee-icon{width:32px;height:36px}}
 
 /* CTAs editoriais distribuídos pelos pontos de maior intenção */
-.mid-cta{margin:0 clamp(24px,7vw,120px);padding:28px 0;display:flex;align-items:center;justify-content:space-between;gap:35px;border-top:1px solid currentColor;border-bottom:1px solid currentColor}.mid-cta>div{display:flex;align-items:center;gap:28px}.mid-cta>div>span{font:400 9px/1 var(--mono);letter-spacing:.12em;color:var(--orange)}.mid-cta p{margin:0;font:500 clamp(19px,2vw,28px)/1.2 var(--serif);letter-spacing:-.02em;max-width:720px}.mid-cta .button{width:auto;flex-shrink:0}.mid-cta-orange{margin:0;padding:30px clamp(24px,7vw,120px);background:var(--orange);border:0}.mid-cta-orange>div>span{color:var(--ink)}.button-ink{background:var(--ink);color:var(--paper)}.mid-cta-dark{margin:0;padding:30px clamp(24px,7vw,120px);background:var(--ink);color:var(--paper);border-color:rgba(255,255,255,.2)}.mid-cta-price{margin-top:55px;margin-bottom:55px}.mid-cta-price p strong{color:var(--orange);font-family:var(--mono);font-size:.45em;letter-spacing:.08em;text-transform:uppercase;vertical-align:middle;margin-right:8px}
-@media(max-width:900px){.mid-cta{align-items:flex-start;flex-direction:column;padding-top:26px;padding-bottom:26px}.mid-cta>div{align-items:flex-start}.mid-cta .button{width:100%}.mid-cta-orange,.mid-cta-dark{margin:0;padding:28px 24px}}
-@media(max-width:520px){.mid-cta{margin-left:20px;margin-right:20px}.mid-cta-orange,.mid-cta-dark{margin:0}.mid-cta>div{gap:14px}}
+.mid-cta{margin:0;padding:38px 20px;display:flex;align-items:center;justify-content:center;text-align:center}.mid-cta .button{width:min(100%,420px);justify-content:center;margin-inline:auto}.mid-cta-orange,.mid-cta-dark{margin:0;background:transparent;color:inherit;border:0}.button-ink{background:var(--ink);color:var(--paper)}.mid-cta-price{margin:0}
+@media(max-width:900px){.mid-cta{padding:34px 20px}}
+@media(max-width:520px){.mid-cta{padding:30px 20px}.mid-cta .button{width:min(100%,360px)}}
 
 /* CTAs em caixa alta */
 .button,.top-cta,.mobile-buy,.text-link{text-transform:uppercase;letter-spacing:.06em}
